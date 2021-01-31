@@ -9,10 +9,249 @@
   <meta property="og:title" content="Portfolio">
   <meta name="description" content="Web Developer's Portfolio">
   <meta property="og:description" content="Web Developer's Portfolio">
+  <link
+  href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap"
+  rel="stylesheet"
+  />
   <link rel="stylesheet" href="dist/app.css">
 </head>
 <body>
-  
+  <div class="grid-container">
+    <div class="left-col">
+      <header>
+        <div class="title">
+          <h1>
+            <a href="/" aria-label="developer's name" title="developer's name"
+              >Sean <img src="/src/assets/images/logo150.png" alt="custom logo" /> Henry</a
+            >
+          </h1>
+          <p aria-label="profession title" title="profession">Developer</p>
+        </div>
+        <!-- <div class="down-arrow">
+          <img src="/src/img/down-arrow-bulb.svg" alt="">
+        </div> -->
+      </header>
+    </div>
+    <div class="right-col">
+      <div class="info-container">
+        <div class="intro">
+          <h3>Intro</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
+            autem dignissimos debitis cupiditate veniam! Consectetur cum, fuga
+            error fugiat iusto, qui voluptate fugit alias illum, deserunt
+            consequuntur! Esse, harum. Sequi!
+          </p>
+        </div>
+        <h3 class="main-title">Skills</h3>
+        <ul class="skills bullet-list">
+          <li>
+            <div class="title">Front End</div>
+            <div class="skill-set">
+              <p>HTML5</p>
+              <p>CSS3</p>
+              <p>JavaScript</p>
+              <p>Sass</p>
+            </div>
+          </li>
+          <li>
+            <div class="title">Back End</div>
+            <div class="skill-set">
+              <p>PHP</p>
+            </div>
+          </li>
+          <li>
+            <div class="title">Framework / Library</div>
+            <div class="skill-set">
+              <p>Laravel</p>
+              <p>Bootstrap</p>
+              <p>jQuery</p>
+            </div>
+          </li>
+          <li>
+            <div class="title">UI / UX</div>
+            <div class="skill-set">
+              <p>Photoshop</p>
+              <p>Illustrator</p>
+            </div>
+          </li>
+          <li class="end-list"></li>
+        </ul>
+        <h3 class="main-title">Projects</h3>
+        <div class="project-grid">
+          <!-- Apex Education Platform -->
+          <div class="project-container">
+            <h3 class="proj-title">Apex Eductation Platform</h3>
+            <div class="project-img box-1">
+              <img
+                src="https://placeit-assets1.s3-accelerate.amazonaws.com/custom-pages/responsive-mockups/imac-macbook-pro-ipad-mini-and-iphone-mockup-over-a-png-background-a11876-o26qi6ni6oiv6r2u41w0fq9u3iled4tpshtcdjggsg.png"
+                alt="Apex website device mockup"
+              />
+              <a href="#">
+                <div class="hover-title">
+                  <p>Apex</p>
+                </div>
+              </a>
+            </div>
+            <div class="links">
+              <a href="#">Live</a>
+              <a href="#">Source</a>
+            </div>
+            <div class="desc-container">
+              <h4>Description</h4>
+              <p>
+                Apex is a platform to take your product management skills to the next level. There are three certifications offered, which will help you grow as a product manager. 
+              </p>
+            </div>
+            <div class="tools">
+              <h3>Tools Used</h3>
+              <ul class="tool-set">
+                <li>HTML5</li>
+                <li>SASS</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+                <li>Gulp</li>
+                <li>NPM</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Lindsey Stirling -->
+          <div class="project-container">
+            <h3 class="proj-title">Lindsey Stirling</h3>
+            <div class="project-img box-2">
+              <img
+                src="https://placeit-assets1.s3-accelerate.amazonaws.com/custom-pages/responsive-mockups/imac-macbook-pro-ipad-mini-and-iphone-mockup-over-a-png-background-a11876-o26qi6ni6oiv6r2u41w0fq9u3iled4tpshtcdjggsg.png"
+                alt="Lindsey Stirling website device mockup"
+              />
+              <a href="#">
+                <div class="hover-title">
+                  <p>Lindsey Stirling</p>
+                </div>
+              </a>
+            </div>
+            <div class="links">
+              <a href="#">Live</a>
+              <a href="#">Source</a>
+            </div>
+            <div class="desc-container">
+              <h4>Description</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                recusandae porro accusantium fugit, necessitatibus maxime
+                eligendi eius. Temporibus repudiandae facilis veniam expedita
+                voluptatibus impedit velit maxime odit unde rem. Est?
+              </p>
+            </div>
+            <div class="tools">
+              <h3>Tools Used</h3>
+              <ul class="tool-set">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+                <li>NPM</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Castle Care -->
+          <div class="project-container">
+            <h3 class="proj-title">Castle Care</h3>
+            <div class="project-img box-3">
+              <img
+                src="/src/assets/images/castleCareMocks.png"
+                alt="Device mockup of the castle care page"
+              />
+              <a href="#">
+                <div class="hover-title">
+                  <p>Castle Care</p>
+                </div>
+              </a>
+            </div>
+            <div class="links">
+              <a
+                href="https://castlecare.netlify.app/"
+                aria-label="castle care live site"
+                title="live site"
+                target="_blank"
+                rel="noopener"
+                >Live</a
+              >
+              <a
+                href="https://github.com/kirito-fire-team/CastleCare"
+                aria-label="castle care github"
+                title="source code"
+                target="_blank"
+                rel="noopener"
+                >Source</a
+              >
+            </div>
+            <div class="desc-container">
+              <h4>Description</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                recusandae porro accusantium fugit, necessitatibus maxime
+                eligendi eius. Temporibus repudiandae facilis veniam expedita
+                voluptatibus impedit velit maxime odit unde rem. Est?
+              </p>
+            </div>
+            <div class="tools">
+              <h3>Tools Used</h3>
+              <ul class="tool-set">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Ruby</li>
+                <li>Ruby on Rails</li>
+                <li>Git</li>
+                <li>NPM</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Portfolio -->
+          <div class="project-container">
+            <h3 class="proj-title">Portfolio</h3>
+            <div class="project-img box-4">
+              <img
+                src="https://placeit-assets1.s3-accelerate.amazonaws.com/custom-pages/responsive-mockups/imac-macbook-pro-ipad-mini-and-iphone-mockup-over-a-png-background-a11876-o26qi6ni6oiv6r2u41w0fq9u3iled4tpshtcdjggsg.png"
+                alt="lindsey-Stirling-Mocks2"
+                alt=""
+              />
+              <a href="#">
+                <div class="hover-title">
+                  <p>Portfolio</p>
+                </div>
+              </a>
+            </div>
+            <div class="links">
+              <a href="#">Live</a>
+              <a href="#">Source</a>
+            </div>
+            <div class="desc-container">
+              <h4>Description</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                recusandae porro accusantium fugit, necessitatibus maxime
+                eligendi eius. Temporibus repudiandae facilis veniam expedita
+                voluptatibus impedit velit maxime odit unde rem. Est?
+              </p>
+            </div>
+            <div class="tools">
+              <h3>Tools Used</h3>
+              <ul class="tool-set">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Ruby</li>
+                <li>Ruby on Rails</li>
+                <li>Git</li>
+                <li>NPM</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <script src="dist/app.js"></script>
 </body>
 </html>

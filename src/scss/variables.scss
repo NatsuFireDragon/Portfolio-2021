@@ -1,0 +1,35 @@
+//COLORS
+$blue: #0867d4;
+$lightBlue:#0aa0f7;
+$darkBlue: #053f82;
+
+// Screen Sizes
+$tablet-width: 768px;
+$desktop-width: 1030px;
+$large-desktop-width: 2300px;
+
+
+// Screen Sizes
+/* Medium devices (landscape tablets, 768px and up) */
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) {
+    @content;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@mixin large-desktop {
+  @media (min-width: #{$large-desktop-width}) {
+    @content;
+  }
+}
+@mixin landscape {
+  @media only screen and (orientation: landscape) {
+    @content;
+  }
+}
