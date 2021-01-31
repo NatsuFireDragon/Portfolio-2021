@@ -272,20 +272,24 @@ PROJECT GRID
   .project-img {
     width: 100%;
     border-radius: 5px;
-    padding: 20px;
+    padding: 10px;
     background: #d1d1d1;
     position: relative;
     &.box-1 {
-      background: #e63749;
+      // background: #e63749;
+      background: #26547c;
     }
     &.box-2 {
-      background: #144c71;
+      // background: #144c71;
+      background: #ef476f;
     }
     &.box-3 {
-      background: #73d6f5;
+      // background: #73d6f5;
+      background: #ffd166;
     }
     &.box-4 {
-      background: #ffb6c1;
+      // background: #ffb6c1;
+      background: #06d6a0;
     }
     a {
       .hover-title {
